@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.Optional;
 
 public class DateObject implements Comparable<DateObject> {
-    public final int JAN = 1, FEB = 2, MAR = 3, APR = 4, MAY = 5, JUN = 6,
+    public static final int JAN = 1, FEB = 2, MAR = 3, APR = 4, MAY = 5, JUN = 6,
             JUL = 7, AUG = 8, SEP = 9, OCT = 10, NOV = 11, DEC = 12;
 
     public static final int MAX_YEAR = 2999, MIN_YEAR = 1901;
